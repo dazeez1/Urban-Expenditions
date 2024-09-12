@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: rgb(22, 98, 193);
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.hero {
+    background-color: rgb(22, 98, 193);
+    min-height: auto;
+    margin-top: 0;
+    padding-top: 8rem;
+    padding-right: 1.25rem;
+    padding-left: 5.5rem;
+}
+
+.hero-1 {
+    display: flex;
+}
+
+.set1 {
+    flex: 8;
+    margin-right: 27rem;
+}
+
+.set1 h1 {
+    color: white;
+    font-size: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+.set1 p {
+    color: white;
+    font-size: 1.4rem;
+    width: 46rem; 
+    margin-bottom: 1rem;
+}
+
+.set1 button {
+    background-color: rgb(202, 255, 250);
+    padding: 1.3rem 2rem;
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.3rem 0.9rem 1.3rem rgba(202, 255, 250, 0.4);
+    margin-top: 1rem;
+}
+
+span {
+    color: lightblue;
+}
+
+.set2 {
+    margin-top: -6rem;
+
+}
+
+.booking {
+    background-color: white;
+    padding: 3rem;
+    margin-top: 2.4rem;
+    margin-right: 3rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.9rem 1.3rem rgba(55, 58, 58, 0.15);
+}
+
+.booking h2 {
+    font-weight: 500;
+}
+
+.description input {
+    color: rgb(186, 186, 186);
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 0.03rem solid;
+}
+
+.booking div button {
+    background-color: rgb(254, 239, 96);
+    color: black;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.select {
+    height: 100vh;
+}
+
+.category {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.category h2 {
+    color: rgb(18, 85, 181);
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.category p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: 100;
+}
+
+.travel {
+    margin-top: 10rem;
+}
+
+.travel h2 {
+    text-align: start;
+    font-size: 2.3rem;
+    margin-left: 5rem;
+    margin-bottom: 8rem;
+    font-weight: 400;
+    color: rgb(18, 85, 181);
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.xxx {
+    text-align: center;
+}
+
+.xxx p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.tourism {
+    color: white;
+}
+
+.tourism button {
+    color: black;
+    background-color: white;
+}
+
+.color1 {
+    background-color: rgb(194, 255, 239);
+    padding: 4rem 0;
+    border-radius: 2rem;
+}
+
+.color1:hover {
+    background-color: gainsboro;
+}
+
+.color2 {
+    background-color: rgb(18, 85, 181);
+    padding: 4rem 0;
+    border-radius: 2rem;
+}
+
+.color2:hover {
+    color: black;
+    background-color: gainsboro;
+}
+
+.color3 {
+    background-color: rgb(254, 239, 96);
+    padding: 4rem 0;
+    border-radius: 2rem;
+}
+
+.color3:hover {
+    background-color: gainsboro;
+}
+
+.yy:hover {
+    background-color: gainsboro;
+    padding: 4rem 0;
+    border-radius: 2rem;
+}
+
+.xxx button {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.place {
+    margin-top: 2rem;
+    background-color: rgb(131, 178, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+
+.location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.img {
+    margin-left: 70px;
+}
+
+.img1 {
+    border-radius: 3rem;
+}
+
+.state {
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.capital {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+
+.city {
+    font-weight: 100;
+    color: black;
+}
+
+.amount {
+    color: rgb(33, 85, 156);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.quantity {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.info button {
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 0.7rem;
+    background-color: rgb(254, 239, 96);
+    font-size: 1.3rem;
+    margin-top: 2.1rem;
+    color: black;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xyz {
+    margin: 1.5rem;
+    border-radius: 1.8rem;
+    opacity: 0.5;
+}
+
+.xyz:hover {
+    opacity: 1;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.trip {
+    margin-top: 3.5rem;
+    text-align: center;
+    height: 60vh;
+}
+
+.trip div h2 {
+    color: rgb(18, 85, 181);
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.popular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.cost {
+    color: rgb(33, 85, 156);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.xyz p {
+    margin-top: o;
+}
+
+#contact {
+    min-height: 65vh;
+    background-color: rgb(243, 249, 255);
+    padding: 3.125rem; 
+    text-align: center;
+}
+    
+.container-contact {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+    
+.container-contact h2 {
+    font-size: 2.313rem; 
+    margin-bottom: 2.5rem;
+    color: #333;
+}
+    
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+    
+.contact-form {
+    text-align: left;
+}
+    
+.contact-form h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.25rem;
+    color: #333;
+}
+    
+.form-group {
+    margin-bottom: 1.25rem;
+}
+    
+input, textarea {
+    width: 100%;
+    padding: 0.85rem;
+    border-radius: 0.5rem;
+    border: 0.03rem solid;
+    background-color: #f8f9fa;
+    color: #333;
+}
+    
+button {
+    display: inline-block;
+    padding:  0.75rem 1.563rem; 
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer
+}
+    
+button:hover {
+    background-color: rgb(214, 204, 204);
+}
+    
+.contact-info{
+    text-align: left;
+    margin-left: 3.125rem;  
+}
+    
+.contact-info h3 {
+    font-size: 1.8rem; 
+    margin-bottom: 1.25rem;
+    color: #333;
+}
+    
+.contact-info p {
+    margin-bottom:  0.6rem;
+    color: #555;
+}
+    
+.contact-info i {
+    margin-right:  0.6rem;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(22, 98, 193);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1.25rem;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .set2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .set2 {
+        display: none;
+    }
+
+    .zzz {
+        display: block;
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .set2 {
+        display: none;
+    }
+    
+    .set1 button {
+        color: black;
+    }
+
+    .zzz {
+        display: block;
+        width: 110px;
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .booking {
+        height: 7rem;
+    }
+
+    .set1 h1 {
+        font-size: 5rem;
+    }
+    
+    .description input {
+        font-size: 0.8rem;
+    }
+    
+    .set2 {
+        display: none;
+    }
+
+    .set1 {
+        margin-top: -4rem;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .place {
+        height: 40vh;
+    }
+
+    .zzz {
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+
+    .trip {
+        height: 40vh;
+    }
+
+    .img {
+        margin-left: 20px;
+    }
+}
